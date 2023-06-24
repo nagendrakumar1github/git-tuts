@@ -1,0 +1,90 @@
+body {
+    background: #34495e;
+    font: normal 300 18px "Roboto",sans-serif;
+}
+
+#menu-nav{
+      max-width:1000px;
+      margin: 130px auto;
+      background-color: aliceblue;
+      border-radius: 4px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#navigation-bar ul {
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  #navigation-bar li {
+    float: left;
+    width: 20%;
+  }
+   #navigation-bar li:hover a::before {
+    right: 0;
+    left: 0;
+  } 
+  #navigation-bar a {
+    color: #848484;
+    font-size: 20px;
+     text-decoration: none;
+     text-align: center; 
+     padding: 20px 0;
+    display: block;
+     position: relative; 
+       transition: all 0.3s ease;    
+  }
+
+   #navigation-bar a::before {
+    content: "";
+    transition: all 0.4s ease-in-out;   
+    position: absolute;
+    right: 50%; 
+    left: 50%;
+    bottom: 0;
+    height: 2px;
+    background-color: #e74c3c;
+  } 
+  li {
+	list-style: none;
+}
+  
+
+
+  
+  
+<section id="project-section">
+<h2>Project: Training Website</h2>
+
+<h3>Description</h3>
+<p>This is a training website that provides information about various training programs. It aims to help individuals find and enroll in suitable training courses to enhance their skills and knowledge.</p>
+
+<h3>Features</h3>
+<ul>
+  <li>Search and browse different training programs</li>
+  <li>View detailed information about each training course, including duration, cost, and syllabus</li>
+  <li>Register and create an account to access personalized recommendations</li>
+  <li>Bookmark favorite courses for future reference</li>
+  <li>Submit inquiries and contact trainers for additional information</li>
+</ul>
+
+<h3>Technologies Used</h3>
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>Backend technology (if applicable)</li>
+</ul>
+
+<h3>Development Process</h3>
+<p>The training website was developed using HTML, CSS, and JavaScript. The frontend design was created using CSS to ensure an appealing and user-friendly interface. 
+JavaScript was used to implement interactive features such as search functionality and form validation.</p>
+
+<h3>Future Improvements</h3>
+<p>In the future, we plan to enhance the website by adding user authentication, allowing users to enroll in courses directly, and integrating payment gateways for seamless transactions.</p>
+
+<h3>Conclusion</h3>
+<p>The training website serves as a valuable platform for individuals seeking to enhance their skills through various training programs. It provides a user-friendly interface,
+ comprehensive course information, and interactive features to facilitate a seamless learning experience.</p>
+</section>
+
+  
